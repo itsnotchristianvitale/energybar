@@ -87,6 +87,8 @@ header {
   align-items: center;
 
 }
+.home #logo {
+  width:400px;}
 
 header nav {
   display: flex;
