@@ -94,7 +94,16 @@ header nav {
   width: 94vw;
   justify-content: space-between;
 }
+footer {
+background-color: #000000;
+color:;
+text-align: left;
+padding: 0px;
 
+}
+footer a {
+  color: #ffffff;
+}
 
 /* Media Queries */
 
