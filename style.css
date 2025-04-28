@@ -26,11 +26,32 @@ h1, h2, h3, h4, h5 {
   font-style: normal;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
+.yellow{
+  color: #F5FF36;
+}  
+
+.blue {
+  color: #1571FF;
+}
+
+.white {
+  color: #fff;
+}
+
+.pink {
+  color: #FF1D9C;
+}
 /* header */
 
 #logo {
   width: 88px;
-}/* Header Styles */
+}
+
+/* Header Styles */
 
 .page-links {
   display: none;
@@ -98,14 +119,29 @@ header nav {
 }
 footer {
 background-color: #000000;
-color:;
+color: rgb(255, 255, 255);
 text-align: left;
 padding: 0px;
+
 
 }
 footer a {
   color: #ffffff;
 }
+
+/* find your fuel page */
+.coffee {
+  background: linear-gradient(180deg, #FF1D9C 6%, rgba(255, 255, 255, 0.00) 78%);
+}
+
+.tea {
+  background: linear-gradient(180deg, #F5FF36 4%, rgba(255, 255, 255, 0.00) 78.5%);
+}
+
+.e-drinks {
+  background: linear-gradient(180deg, #1571FF 0%, rgba(255, 255, 255, 0.00) 49.5%);
+}
+
 
 /* Media Queries */
 
