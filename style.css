@@ -18,21 +18,27 @@ body {
   color: var(--text);
   display: flex;
   flex-direction: column;
+  margin:0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Bungee", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
 }
 
-.yellow{
+.yellow {
   color: #F5FF36;
-}  
+}
 
 .blue {
   color: #1571FF;
@@ -45,6 +51,23 @@ h1, h2 {
 .pink {
   color: #FF1D9C;
 }
+
+.bg-yellow {
+  background: #F5FF36;
+}
+
+.bg-blue {
+  background: #1571FF;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-pink {
+  background: #FF1D9C;
+}
+
 /* header */
 
 #logo {
@@ -108,8 +131,22 @@ header {
   align-items: center;
 
 }
+
 .home #logo {
-  width:400px;}
+  width: 400px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.card h2 {
+  text-align: left;
+}
 
 header nav {
   display: flex;
@@ -117,14 +154,16 @@ header nav {
   width: 94vw;
   justify-content: space-between;
 }
+
 footer {
-background-color: #000000;
-color: rgb(255, 255, 255);
-text-align: left;
-padding: 0px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 0px;
 
 
 }
+
 footer a {
   color: #ffffff;
 }
@@ -142,24 +181,38 @@ footer a {
   background: linear-gradient(180deg, #1571FF 0%, rgba(255, 255, 255, 0.00) 49.5%);
 }
 
+/* buzz breakdown */
+
+.⚡️ {
+  background: url(img/blulight.jpg);
+  color: white;
+  background-attachment: fixed;
+}
+
+.⚡️ div {
+  border-radius: 20px;
+  background: rgba(0, 67, 169, 0.73);
+  padding: 42px 20px;
+  margin: 80px 10px;
+}
 
 /* Media Queries */
 
 @media (min-width: 480px) {
   .topnav .icon {
-      display: none;
+    display: none;
   }
 
   .page-links {
-      display: none;
-      background: transparent;
-      display: flex;
-      flex-direction: row;
-      position: relative;
-      width: auto;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 0;
-      justify-content: flex-start;
+    display: none;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0;
+    justify-content: flex-start;
   }
 }
