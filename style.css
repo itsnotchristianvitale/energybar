@@ -170,7 +170,7 @@ footer a {
 
 /* find your fuel page */
 .coffee {
-  background: linear-gradient(180deg, #FF1D9C 6%, rgba(255, 255, 255, 0.00) 78%);
+  background: linear-gradient(180deg, #ff1d9c 6%, rgba(255, 255, 255, 0.00) 78%);
 }
 
 .tea {
@@ -191,10 +191,12 @@ footer a {
 
 .⚡️ div {
   border-radius: 20px;
-  background: rgba(0, 67, 169, 0.73);
+  background: hsla(216, 100%, 33%, 0.73);
   padding: 42px 20px;
   margin: 80px 10px;
 }
+
+clas
 
 /* Media Queries */
 
