@@ -108,12 +108,12 @@ h2 {
 
 .topnav a:hover,
 .topnav a:focus {
-  color: #FFC300;
+  color: #4349ee;
   text-decoration: underline;
 }
 
 .topnav a:focus {
-  outline: 3px solid #FFC300;
+  outline: 3px solid #3d5aff;
 }
 
 .topnav a.active {
