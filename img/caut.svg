@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo_1" data-name="Logo 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 184 158">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #4885ff;
+      }
+
+      .cls-3 {
+        fill: #1571ff;
+      }
+
+      .cls-4 {
+        fill: url(#New_Pattern);
+      }
+    </style>
+    <pattern id="New_Pattern" data-name="New Pattern" x="0" y="0" width="183.81" height="157.78" patternTransform="translate(-2064.21 -1701.26)" patternUnits="userSpaceOnUse" viewBox="0 0 183.81 157.78">
+      <g>
+        <rect class="cls-1" width="183.81" height="157.78"/>
+        <path class="cls-2" d="M10.1,86.49l74.93-.05c7.71,0,12.56-8.32,8.77-15.03L56.38,5.12c-3.85-6.83-13.69-6.83-17.55,0L1.32,71.45c-3.8,6.72,1.06,15.04,8.78,15.04Z"/>
+        <path class="cls-3" d="M12.34,81.58l70.44-.05c4.29,0,6.98-4.62,4.87-8.36L52.48,10.87c-2.14-3.8-7.61-3.8-9.76,0L7.46,73.22c-2.11,3.74.59,8.36,4.88,8.36Z"/>
+        <rect class="cls-2" x="43.77" y="24.42" width="7.57" height="36.76" rx="2.89" ry="2.89"/>
+        <circle class="cls-2" cx="47.56" cy="71.66" r="4.2"/>
+        <path class="cls-2" d="M98.8,157.78l74.93-.05c7.71,0,12.56-8.32,8.77-15.03l-37.42-66.28c-3.85-6.83-13.69-6.83-17.55,0l-37.51,66.33c-3.8,6.72,1.06,15.04,8.78,15.04Z"/>
+        <path class="cls-3" d="M101.04,152.88l70.44-.05c4.29,0,6.98-4.62,4.87-8.36l-35.18-62.31c-2.14-3.8-7.61-3.8-9.76,0l-35.26,62.36c-2.11,3.74.59,8.36,4.88,8.36Z"/>
+        <rect class="cls-2" x="132.47" y="95.71" width="7.57" height="36.76" rx="2.89" ry="2.89"/>
+        <circle class="cls-2" cx="136.26" cy="142.95" r="4.2"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect class="cls-4" width="184" height="158"/>
+</svg>

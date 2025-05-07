@@ -18,7 +18,7 @@ body {
   color: var(--text);
   display: flex;
   flex-direction: column;
-  margin:0;
+  margin: 0;
 }
 
 h1,
@@ -32,8 +32,13 @@ h5 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .yellow {
@@ -66,6 +71,27 @@ h2 {
 
 .bg-pink {
   background: #FF1D9C;
+}
+
+.bg-tea {
+  background: url("img/tea.svg"), #FF1D9C;
+  background-size: 240px;
+  min-height: 268px;
+  background-attachment: fixed;
+}
+
+.bg-beaker {
+  background: url("img/beakr.svg"), #ffffff;
+  background-size: 240px;
+  min-height: 268px;
+  background-attachment: fixed;
+}
+
+.bg-caut {
+  background: url("img/caut.svg"), #1571FF;
+  background-size: 240px;
+  min-height: 268px;
+  background-attachment: fixed;
 }
 
 /* header */
@@ -141,7 +167,13 @@ header {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+transition: filter 0.5s ease;
 
+}
+.card:hover {
+  filter: hue-rotate(120deg);
+  animation: shake 0.5s;
+  
 }
 
 .card h2 {
@@ -158,14 +190,21 @@ header nav {
 footer {
   background-color: #000000;
   color: rgb(255, 255, 255);
-  text-align: left;
-  padding: 0px;
-
-
+  padding: 50px;
+  height: 215px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer a {
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.left h3 {
+  max-width: 200px;
+  text-align: left;
 }
 
 /* find your fuel page */
@@ -187,6 +226,7 @@ footer a {
   background: url(img/blulight.jpg);
   color: white;
   background-attachment: fixed;
+  padding-bottom: 40px;
 }
 
 .⚡️ div {
@@ -196,7 +236,21 @@ footer a {
   margin: 80px 10px;
 }
 
-clas
+.bg-tea section {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.73);
+  padding: 42px 20px;
+  margin: 40px 10px;
+}
+
+.⚡️ div, .bg-tea section, .fuel p, .fuel ul {
+  width: 100%;
+  max-width: 660px;
+  margin: 40px auto;
+}
+
+
+
 
 /* Media Queries */
 
@@ -217,4 +271,19 @@ clas
     padding: 0;
     justify-content: flex-start;
   }
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
