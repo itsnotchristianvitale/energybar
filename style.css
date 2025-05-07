@@ -170,9 +170,10 @@ header {
 transition: filter 0.5s ease;
 
 }
-.card:hover {
+.card:hover, :focus {
   filter: hue-rotate(120deg);
   animation: shake 0.5s;
+  
   
 }
 
